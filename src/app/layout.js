@@ -19,6 +19,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+    <script
+  defer
+  data-website-id="e8cc375f-8ca8-4774-be9e-7de897fe02ec"
+  data-domain="https://facebook-clone-two-beta.vercel.app"
+  src="https://web-tracker-smoky.vercel.app//analytics.js">
+</script>
+    <head/>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
